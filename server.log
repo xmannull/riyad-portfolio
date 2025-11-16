@@ -1,0 +1,82 @@
+$ next dev --turbopack
+   ▲ Next.js 15.5.6 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1506ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.6s
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / 200 in 6484ms
+ GET / 200 in 3012ms
+ ⚠ Cross origin request detected from riyad-portfolio-3.lindy.site to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 623ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 976ms
+ GET / 200 in 256ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 301ms
+ ✓ Compiled in 193ms
+ ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / 200 in 182ms
+ GET / 200 in 105ms
+ GET / 200 in 103ms
+ GET / 200 in 122ms
+ GET / 200 in 108ms
+ GET / 200 in 123ms
+ ✓ Compiled in 214ms
+ ⨯ ./app/page.tsx:122:23
+Parsing ecmascript source code failed
+[0m [90m 120 |[39m               [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex gap-4 pt-4"[39m[33m>[39m
+ [90m 121 |[39m                 [33m<[39m[33ma[39m
+[31m[1m>[22m[39m[90m 122 |[39m                 [33m<[39m[33mLink[39m href[33m=[39m[32m"/download"[39m[33m>[39m
+ [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 123 |[39m                   [33m<[39m[33mButton[39m
+ [90m 124 |[39m                     size[33m=[39m[32m"lg"[39m
+ [90m 125 |[39m                     variant[33m=[39m[32m"outline"[39m[0m
+
+Expected ',', got 'href'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.6s
+ GET / 500 in 2857ms
+ GET /favicon.ico 500 in 72ms
+ ⨯ ./app/page.tsx:122:23
+Parsing ecmascript source code failed
+[0m [90m 120 |[39m               [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex gap-4 pt-4"[39m[33m>[39m
+ [90m 121 |[39m                 [33m<[39m[33ma[39m
+[31m[1m>[22m[39m[90m 122 |[39m                 [33m<[39m[33mLink[39m href[33m=[39m[32m"/download"[39m[33m>[39m
+ [90m     |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 123 |[39m                   [33m<[39m[33mButton[39m
+ [90m 124 |[39m                     size[33m=[39m[32m"lg"[39m
+ [90m 125 |[39m                     variant[33m=[39m[32m"outline"[39m[0m
+
+Expected ',', got 'href'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+ GET / 500 in 327ms
