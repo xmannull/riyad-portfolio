@@ -116,6 +116,17 @@ export default function Home() {
                 </Button>
               </div>
 
+                <a href="/download" className="w-full">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="w-full border-amber-600 text-amber-600 hover:bg-amber-50"
+                  >
+                    <Download className="w-5 h-5 mr-2" />
+                    ডাউনলোড করুন
+                  </Button>
+                </a>
+
               {/* সোশ্যাল লিংক */}
               <div className="flex gap-4 pt-4">
                 <a
